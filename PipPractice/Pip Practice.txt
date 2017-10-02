@@ -1,0 +1,26 @@
+pip2 install Django
+	-installed Django (high level web framework)
+pip2 list
+	-lists installed packages, including editable
+	-case sensitive and sorted order (A-Z)
+	-to confirm that Django was installed.
+
+pip2 install Django (second time)
+	-Command line informs you that it has been installed already and where to find the packages.
+
+pip freeze 
+	- does not include editable like pip list.
+	-output format, freeze gives us the standard requirement format that may be used later with “pip2 install -r” to install requirements from.
+
+cd ~/Desktop => pip2 freeze > reqiurement.txt
+	-a .txt file is created with the name requirements.
+	-inside the file has the information pip2 freeze provides in the command line.
+
+pip2 uninstall Django
+	-Django has been uninstalled.
+
+pip2 show Django
+	-Nothing shows for the command.
+
+Pip2 search Flask
+	-gives a long list of Flask packages whose name or summary contains “Flask”
